@@ -26,3 +26,4 @@ Subir cambios al *remote* (server)
 
 Por default tenemos a nuestro remote principal llamado *origin* (GitHub). Por defecto un push usa la rama main/master de origin, pero al ahora estar en la rama "notas" (una rama alterna), ahora debemos especificar la rama al a que se debe subir.
 
+Si cambiamos la branch upstream podremos pushear nuestros cambios sin especificar a que rama todo el tiempo.
