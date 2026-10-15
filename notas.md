@@ -20,3 +20,9 @@ Guarda los cambios del staging area.
 git add -u
 git commit -m "Comentario"
 ```
+## Git push
+Subir cambios al *remote* (server)
+- `git push <remote> <branch>`: subir los cambios de nuestra branch al server remote.
+
+Por default tenemos a nuestro remote principal llamado *origin* (GitHub). Por defecto un push usa la rama main/master de origin, pero al ahora estar en la rama "notas" (una rama alterna), ahora debemos especificar la rama al a que se debe subir.
+
