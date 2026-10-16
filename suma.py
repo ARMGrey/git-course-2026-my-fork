@@ -1,9 +1,9 @@
 # pylint: disable=missing-module-docstring
-def add(a, b):
+def sumatoria(a, b):
     return a + b
 
-def subst(a,b):
+def substraccion(a,b):
     return a - b
 
-print(sum(2, 3))
-print(subst(3,2))
+print(sumatoria(2, 3))
+print(substraccion(3,2))
